@@ -13,3 +13,11 @@ Color Scheme:
 --accent-color: #000080;
 --additional-accent: #B5A642;
 --neutral-base: #D3D3D3;
+
+Font-Family:
+Header Text:
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Playfair Display', serif;
+
+Body:
+font-family: 'Roboto', sans-serif; 
