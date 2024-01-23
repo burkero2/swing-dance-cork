@@ -38,10 +38,18 @@ header {
     background-color: white;
 }
 
+
+
 #logo-img {
-    width: 75px;
-    height: 75px;
-    margin: 10px;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    display: inline-block;
+
+}
+
+#logo-title {
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 /* Main */
