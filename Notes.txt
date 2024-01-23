@@ -2,4 +2,14 @@
 1. https://favicon.io/favicon-generator/
 2. Dall.e for graphics generation
 3. Figma - wireframing
-4. 
+4. Coolors.co - Color scheme
+5.
+
+
+
+Color Scheme: 
+--primary-color: maroon;
+--secondary-color: #F5F5DC;
+--accent-color: #000080;
+--additional-accent: #B5A642;
+--neutral-base: #D3D3D3;

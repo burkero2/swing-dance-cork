@@ -3,6 +3,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* Color Scheme Variables */
+    --primary-color: maroon;
+    --secondary-color: #F5F5DC;
+    --accent-color: #000080;
+    --additional-accent: #B5A642;
+    --neutral-base: #D3D3D3;
 }
 
 /* General styles */
@@ -17,16 +23,17 @@ body {
 
 /* Header */
 header {
-    background-color: lightgreen;
+    background-color: var(--additional-accent);
 }
 
 /* Main */
 main {
-    background-color: orange;
+    background-color: var(--neutral-base);
+    /* Make main content full height of screen */
     flex: 1 0 auto;
 }
 
 /* Footer */
 footer {
-    background-color: lightblue;
+    background-color: var(--accent-color);
 }
