@@ -119,6 +119,13 @@ footer {
     background-color: var(--accent-color);
 }
 
+footer a {
+    color: var(--secondary-color);
+    font-size: 40px;
+    margin: 300px auto;
+    
+}
+
 /* Media queries: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
