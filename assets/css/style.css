@@ -102,8 +102,12 @@ nav {
     text-align: right;
 }
 
-header button {
+header>button {
     font-size: 2rem;
+    border: none;
+    background-color: white;
+    /* box-shadow: none; */
+    margin-bottom: 5px;
 }
 
 /* Main */
