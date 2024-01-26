@@ -35,7 +35,7 @@ body {
 
 /* Header */
 header {
-    background-color: white;
+    background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
     z-index: 100;
@@ -115,15 +115,20 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: var(--accent-color);
+#social-networks {
+    text-align: center;
+
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
 }
 
-footer a {
-    color: var(--secondary-color);
-    font-size: 40px;
-    margin: 300px auto;
-    
+#social-networks i {
+    font-size: 30px;
+    padding: 5%;
+    color: black;
 }
 
 /* Media queries: tablets and larger (768px and up) */
