@@ -13,7 +13,6 @@ function navBarToggle(e) {
 
 // Anonymous function to hide the menu again if the user clicks anywhere on the screen that's not the button
 document.addEventListener("click", function (e) {
-    console.log(navBarBtn, e.target);
     if (e.target != navBarBtn) {
         navElem.classList.add("hide");
     }
