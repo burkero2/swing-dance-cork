@@ -112,10 +112,40 @@ header>button {
 
 /* Main */
 main {
-    background-color: var(--neutral-base);
+    background-color: var(--secondary-color);
     /* Make main content full height of screen */
     flex: 1 0 auto;
     margin-top: 73.8px;
+}
+
+/* Hero Section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: #6fb0b3 url("../images/hero-image.png") no-repeat center center/cover;
+    background-size: auto;
+    position: relative;
+}
+
+#hero-text {
+    background-color: #b3726f;
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    right: 0px;
+    bottom: 40px;
+    opacity: 0.9;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+#hero-text h3 {
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: right;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 3px;
+    font-weight: normal;
 }
 
 /* Footer */
