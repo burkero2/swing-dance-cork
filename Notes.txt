@@ -21,3 +21,7 @@ font-family: 'Playfair Display', serif;
 
 Body:
 font-family: 'Roboto', sans-serif; 
+
+
+Copied code:
+1. How to embed styled youtube iframes: https://www.smashingmagazine.com/2014/02/making-embedded-content-work-in-responsive-design/

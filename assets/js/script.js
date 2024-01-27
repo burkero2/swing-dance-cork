@@ -17,3 +17,4 @@ document.addEventListener("click", function (e) {
         navElem.classList.add("hide");
     }
 });
+
