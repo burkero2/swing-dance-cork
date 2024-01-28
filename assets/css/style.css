@@ -14,11 +14,14 @@ font-family: 'Roboto', sans-serif; */
     margin: 0;
     box-sizing: border-box;
     /* Color Scheme Variables */
-    --primary-color: #008080;
-    --secondary-color: #F5F5DC;
+    --primary-color: #81bebd;
+    /* primary color */
+    --secondary-color: #c73611;
+    /*secondary color */
     --accent-color: #000080;
     --additional-accent: #B5A642;
-    --neutral-base: #D3D3D3;
+    --text-base: #3a3a3a;
+    /*Text */
 
 }
 
@@ -28,7 +31,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #3a3a3a;
+    color: var(--text-base);
     /* Body font-family */
     font-family: 'Roboto', sans-serif;
 }
@@ -86,7 +89,7 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid var(--text-base);
 }
 
 /* Navbar Styles */
@@ -122,14 +125,14 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: #6fb0b3 url("../images/hero-image.png") no-repeat center center/cover;
+    background: var(--primary-color) url("../images/hero-image.png") no-repeat center center/cover;
     background-size: auto;
     position: relative;
 }
 
 
 #hero-text {
-    background-color: #c73611;
+    background-color: var(--secondary-color);
     min-width: 200px;
     min-height: 150px;
     position: absolute;
@@ -182,7 +185,7 @@ main {
 /* Testimonials  */
 #testimonials-container {
     width: 100%;
-    background-color: #81bebd;
+    background-color: var(--primary-color);
     padding: 20px 20px;
 
 }
@@ -241,6 +244,10 @@ main {
 
 
 /* Footer */
+footer {
+    background-color: var(--secondary-color)
+}
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -253,7 +260,12 @@ main {
 #social-networks i {
     font-size: 30px;
     padding: 5%;
-    color: black;
+    color: #ffffff;
+}
+
+#social-networks i:hover {
+    color: #d8d8d8;
+    transition: .5s;
 }
 
 /* Media queries: tablets and larger (768px and up) */
@@ -329,12 +341,10 @@ main {
 
     #menu>li {
         padding-left: 1.5rem;
-        transition: .5s;
     }
 
     #menu>li:hover {
         color: var(--primary-color);
-        transition: .5s;
     }
 
     #menu a:hover {
