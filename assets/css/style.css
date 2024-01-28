@@ -210,11 +210,11 @@ main {
 .testimonial-image {
     border-radius: 50%;
     overflow: hidden;
-    background-color: red;
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     flex-shrink: 0;
-    border: #c73611 solid 2px;
+    border: #ffffff solid 2px;
+    box-shadow: 2px 0px 2px #e0e0e0;
 }
 
 
@@ -228,8 +228,8 @@ main {
     text-align: right;
 }
 
-.testimonial-account>hr {
-    border: 0;
+#testimonial-content hr {
+    border: 0 none;
     height: 1px;
     background-color: white;
 
@@ -291,10 +291,22 @@ main {
         font-size: 32px;
         margin: 20px 0;
     }
+
+    /* Testimonials */
+    #testimonial-content {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .testimonial-account {
+        align-items: center;
+        font-size: 18px;
+    }
+
 }
 
 
-/* Media queries: Laptops and Desktops (992px and up) */
+/* Media queries: Small Laptops and Desktops (992px and up) */
 @media screen and (min-width: 992px) {
 
     /* Header */
@@ -358,9 +370,26 @@ main {
         width: 60%;
     }
 
+    /* Testimonials */
+    #testimonial-content {
+        width: 60%;
+        font-size: 24px;
+    }
+
+    #testimonial-content>h2 {
+        text-align: left;
+    }
+
+    .testimonial-image {
+        width: 175px;
+        height: 175px;
+    }
+
+
+
 }
 
-/* Media queries: Largest Screen sizes (1024px and up) */
+/* Media queries: Medium Screen sizes (1024px and up) */
 @media screen and (min-width: 1024px) {
 
     /* Hero Image */
@@ -375,4 +404,38 @@ main {
         text-align: left;
         padding-left: 30px;
     }
+
+    /* Testimonials */
+    #large-flex-parent {
+        display: flex;
+        gap: 20px;
+    }
+
+    .testimonial-account {
+        align-items: flex-start;
+    }
+
+    .testimonial-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    #testimonial-content hr {
+        width: 1px;
+        height: 200px;
+    }
+
+
+}
+
+/* Media queries: Medium Screen sizes (1625px and up) */
+@media screen and (min-width: 1625px) {
+
+    /* Testimonials */
+    .testimonial-image {
+        width: 175px;
+        height: 175px;
+    }
+
+
 }
