@@ -14,11 +14,12 @@ font-family: 'Roboto', sans-serif; */
     margin: 0;
     box-sizing: border-box;
     /* Color Scheme Variables */
-    --primary-color: #81bebd;
+    --primary-color: #6eb2b7;
     /* primary color */
     --secondary-color: #c73611;
     /*secondary color */
-    --accent-color: #000080;
+    --accent-color: #e2e2e2;
+    /* accent color */
     --additional-accent: #B5A642;
     --text-base: #3a3a3a;
     /*Text */
@@ -187,6 +188,7 @@ main {
     width: 100%;
     background-color: var(--primary-color);
     padding: 20px 20px;
+    margin-bottom: 30px;
 
 }
 
@@ -238,14 +240,46 @@ main {
 
 }
 
-
 /* End of flexbox children styling */
 
+/* Navigation Items divs */
+#navigation-buttons-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 0 20px;
+}
 
+.navigation-icons-image-div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: var(--secondary-color);
+
+}
+
+.navigation-icons-image-div a {
+    position: relative;
+    top: 13%;
+    color: white;
+    font-size: 48px;
+}
+
+.nav-btns {
+    margin: 13px auto;
+    text-align: center;
+}
+
+.nav-btns h3 {
+    margin: 25px 0 10px;
+    font-size: 24px;
+}
 
 /* Footer */
 footer {
-    background-color: var(--secondary-color)
+    background-color: var(--primary-color)
 }
 
 #social-networks {
@@ -344,11 +378,11 @@ footer {
     }
 
     #menu>li:hover {
-        color: var(--primary-color);
+        color: var(--secondary-color);
     }
 
     #menu a:hover {
-        border-bottom: 1px solid var(--primary-color);
+        border-bottom: 1px solid var(--secondary-color);
     }
 
     #nav-toggle {
