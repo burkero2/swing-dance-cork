@@ -1,3 +1,12 @@
+// $(document).on("click", function (e) {
+//     if (e.target === $(".fa-solid.fa-bars")[0]) {
+//         $("nav").slideToggle('slow');
+//     } else {
+//         $("nav").slideUp('slow');
+//     }
+// });
+
+
 
 // Declare variables to be used
 let navBarBtn = document.querySelector("#nav-toggle i");
