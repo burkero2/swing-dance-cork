@@ -479,7 +479,7 @@ footer {
 
     #testimonial-content hr {
         width: 1px;
-        height: 150px;
+        height: 220px;
     }
 
     /* Navigation Buttons Section */
@@ -493,6 +493,14 @@ footer {
         background-color: var(--additional-accent);
     }
 }
+
+/* Media queries: Medium Screen sizes (1440px and up) */
+@media screen and (min-width: 1440px) {
+    #testimonial-content hr {
+        height: 150px;
+    }
+}
+
 
 /* Media queries: Medium Screen sizes (1625px and up) */
 @media screen and (min-width: 1625px) {
