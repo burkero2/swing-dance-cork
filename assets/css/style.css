@@ -183,6 +183,23 @@ main {
 
 /* End of copied code */
 
+/* Google Calendar Section */
+#google-calendar {
+    width: 90%;
+    margin: 0 auto 35px;
+    position: relative;
+    overflow: hidden;
+    height: 307px;
+}
+
+#google-calendar>iframe {
+    width: 100%;
+    min-height: 400px;
+    position: relative;
+}
+
+
+
 /* Testimonials  */
 #testimonials-container {
     width: 100%;
