@@ -310,16 +310,23 @@ footer {
 /* Google Calendar Section */
 #google-calendar {
     width: 90%;
-    margin: 0 auto 35px;
-    position: relative;
-    overflow: hidden;
-    height: 373px;
+    margin: 0px auto 35px;
 }
 
 #google-calendar>iframe {
     width: 100%;
     min-height: 400px;
-    position: relative;
+    margin: 20px 0 0;
+}
+
+#google-calendar>div {
+    width: 100%;
+}
+
+#google-calendar>div>p {
+    font-size: 10px;
+    text-align: right;
+    margin-top: 0;
 }
 
 /* Media queries: tablets and larger (768px and up) */
@@ -495,7 +502,12 @@ footer {
     /* 3. Social Events Page */
     /* Google Calendar Section */
     #google-calendar {
-        width: 57%;
+        width: 60%;
+        padding: 0 20px;
+    }
+
+    #google-calendar>iframe {
+        height: 500px;
     }
 
 
@@ -509,12 +521,8 @@ footer {
 
     /* 3. Socials Page */
     /* Google Calendar Section */
-    #google-calendar {
-        height: 473px;
-    }
-
     #google-calendar>iframe {
-        min-height: 500px;
+        height: 550px;
     }
 }
 
@@ -537,12 +545,8 @@ footer {
 
     /* 3. Socials Page */
     /* Google Calendar Section */
-    #google-calendar {
-        height: 750px;
-    }
-
     #google-calendar>iframe {
-        min-height: 775px;
+        height: 600px;
     }
 
 }
