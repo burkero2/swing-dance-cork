@@ -183,23 +183,6 @@ main {
 
 /* End of copied code */
 
-/* Google Calendar Section */
-#google-calendar {
-    width: 90%;
-    margin: 0 auto 35px;
-    position: relative;
-    overflow: hidden;
-    height: 307px;
-}
-
-#google-calendar>iframe {
-    width: 100%;
-    min-height: 400px;
-    position: relative;
-}
-
-
-
 /* Testimonials  */
 #testimonials-container {
     width: 100%;
@@ -323,6 +306,22 @@ footer {
     transition: .5s;
 }
 
+/* 3. Sections Page */
+/* Google Calendar Section */
+#google-calendar {
+    width: 90%;
+    margin: 0 auto 35px;
+    position: relative;
+    overflow: hidden;
+    height: 373px;
+}
+
+#google-calendar>iframe {
+    width: 100%;
+    min-height: 400px;
+    position: relative;
+}
+
 /* Media queries: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -377,6 +376,12 @@ footer {
         justify-content: space-evenly;
         width: 79%;
         margin: 0 auto;
+    }
+
+    /* 3. Social Events Page */
+    /* Google Calendar Section */
+    #google-calendar {
+        width: 70%;
     }
 
 }
@@ -486,12 +491,30 @@ footer {
     .navigation-icons-image-div:hover {
         background-color: var(--additional-accent);
     }
+
+    /* 3. Social Events Page */
+    /* Google Calendar Section */
+    #google-calendar {
+        width: 57%;
+    }
+
+
 }
 
 /* Media queries: Medium Screen sizes (1440px and up) */
 @media screen and (min-width: 1440px) {
     #testimonial-content hr {
         height: 150px;
+    }
+
+    /* 3. Socials Page */
+    /* Google Calendar Section */
+    #google-calendar {
+        height: 473px;
+    }
+
+    #google-calendar>iframe {
+        min-height: 500px;
     }
 }
 
@@ -510,4 +533,16 @@ footer {
         gap: 23px;
 
     }
+
+
+    /* 3. Socials Page */
+    /* Google Calendar Section */
+    #google-calendar {
+        height: 750px;
+    }
+
+    #google-calendar>iframe {
+        min-height: 775px;
+    }
+
 }
