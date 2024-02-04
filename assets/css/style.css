@@ -306,6 +306,13 @@ footer {
     transition: .5s;
 }
 
+/* 3. Classes Page */
+#classes-table {
+    width: 60%;
+    margin: 30px auto;
+}
+
+
 /* 3. Sections Page */
 /* Google Calendar Section */
 #google-calendar {
