@@ -439,6 +439,21 @@ footer {
         margin: 0 auto;
     }
 
+    /* 2. Classes Page */
+    .class-card {
+        width: 45%;
+        min-height: 250px;
+        padding: 0;
+    }
+
+    .class-card table {
+        width: 100%;
+    }
+
+    .class-card table th {
+        text-align: left;
+    }
+
     /* 3. Social Events Page */
     /* Google Calendar Section */
     #google-calendar {
