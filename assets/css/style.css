@@ -306,10 +306,57 @@ footer {
     transition: .5s;
 }
 
-/* 3. Classes Page */
-#classes-table {
-    width: 60%;
-    margin: 30px auto;
+/* 2. Classes Page */
+#classes-section {
+    padding: 20px 20px;
+}
+
+#class-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 40px;
+    justify-content: space-around;
+    margin: 20px auto;
+
+
+}
+
+.class-card {
+    border-bottom: 1px solid lightgrey;
+    padding: 0px 0 30px;
+    width: 100%;
+}
+
+.class-card table th {
+    font-size: 24px;
+    padding: 0 0 5px;
+    text-align: right;
+}
+
+#signup-btn-div {
+    width: 150px;
+    margin: 20px 0;
+}
+
+#signup-btn-div button {
+    border: 0;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    padding: 10px;
+
+}
+
+#signup-btn-div button a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+#signup-btn-div button:hover {
+    background-color: var(--secondary-color);
+    transition: 1s;
 }
 
 
@@ -505,6 +552,12 @@ footer {
     .navigation-icons-image-div:hover {
         background-color: var(--additional-accent);
     }
+
+    /* 2. Class Times Page */
+    /* #classes-section {
+        width: 60%;
+        margin: 0 auto;
+    } */
 
     /* 3. Social Events Page */
     /* Google Calendar Section */
