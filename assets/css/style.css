@@ -406,7 +406,7 @@ footer {
 
     /* Header */
     nav {
-        display: block;
+        display: block !important;
         position: relative;
         box-shadow: none;
         width: fit-content;
