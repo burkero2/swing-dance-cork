@@ -13,6 +13,7 @@ font-family: 'Roboto', sans-serif; */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
     /* Color Scheme Variables */
     --primary-color: #6eb2b7;
     /* primary color */
@@ -347,7 +348,7 @@ footer {
     margin: 20px auto 0;
 }
 
-#signup-btn-div button {
+#signup-btn-div button, #signup-form-section input[type="submit"]{
     border: 0;
     border-radius: 5px;
     background-color: white;
@@ -356,7 +357,7 @@ footer {
     
 }
 
-#signup-btn-div button a {
+#signup-btn-div button a, #signup-form-section input[type="submit"] {
     font-size: 18px;
     text-align: center;
     color:var(--text-base);
@@ -392,6 +393,11 @@ footer {
 #signup-form-section {
     padding: 20px 20px;
     margin: 0 auto;
+}
+
+#signup-form-section>p{
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 #signup-form-section h1{
@@ -434,7 +440,7 @@ footer {
 }
 
 #signup-form a{
-    color: white;
+    color: blue;
     text-align: center;
 }
 
@@ -513,9 +519,9 @@ footer {
         width: 75%;
     }
 
-    #about h2 {
+    #about>h2, #classes-section>h2, #signup-form-section>h2 {
         font-size: 32px;
-        margin: 20px 0;
+        margin: 0;
     }
 
     /* Testimonials */
@@ -531,22 +537,22 @@ footer {
 
     /* Navigation Buttons Section */
     #navigation-buttons-section {
-
         flex-direction: row;
         justify-content: space-evenly;
         width: 79%;
-        margin: 30px auto;
+        margin: 0px auto 30px;
     }
 
     /* 2. Classes Page */
     #classes-section{
-        margin: 20px auto;
+        margin: 20px auto 0;
         width: 85%;
+        
     }
 
     .class-card {
         width: 45%;
-        min-height: 400px;
+        min-height: 438px;
     }
 
     .class-card:nth-child(3){
@@ -554,11 +560,16 @@ footer {
     } 
 
     .class-card table {
-        min-height: 290px;
+        min-height: 330px;
     }
 
     .class-card table th {
         font-size: 28px;
+    }
+
+    #teachers-div{
+        width:75%;
+        margin: 10px auto 0;
     }
 
     /* 3. Social Events Page */
@@ -567,6 +578,17 @@ footer {
         width: 70%;
     }
 
+    /* 4. Sign Up Page */
+    /* Sign up form */
+    #signup-form-section{
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    #signup-form{
+        width: 80%;
+        margin:20px auto;
+    }
 }
 
 
@@ -685,9 +707,10 @@ footer {
         margin: 0;
     } 
 
-    #signup-btn-div button:hover{
+    #signup-btn-div button:hover, #signup-form input[type="submit"]:hover{
         background-color: var(--secondary-color);
         transition: .5s;
+        color:white;
     }
 
     #signup-btn-div button:hover a{
@@ -706,6 +729,11 @@ footer {
         height: 500px;
     }
 
+    /* 4. Sign up Page */
+    /* Sign Up Form */
+    #signup-form-section table td:nth-child(1){
+        width: 15%;
+    }
 
 }
 
@@ -717,26 +745,47 @@ footer {
 
     /* 2. Classes Page */
     #class-container{
-        gap: 10px;
+        gap: 30px;
         margin:20px 0;
     }
 
     #class-container h2, p{
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .class-card {
-        width: 19%;    
+        width: 30%;   
     }
 
     .class-card table{
         min-height: 360px;    
+        font-size: 24px;
     }
 
     /* 3. Socials Page */
     /* Google Calendar Section */
     #google-calendar>iframe {
         height: 550px;
+    }
+
+    /* 4. Sign up Page */
+    /* Sign Up Form */
+    #signup-form-section{
+        width:60%;
+        font-size:18px;
+    }
+
+    #signup-form-section h2{
+        font-size:24px;
+        margin-bottom: 10px;
+    }
+
+    #signup-form-section table td:nth-child(1){
+        width: 20%;
+    }
+
+    #signup-form-section table input{
+        width: 50%;
     }
 }
 
