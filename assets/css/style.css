@@ -528,7 +528,7 @@ footer {
     .class-card table th {
         font-size: 28px;
     }
-    
+
     /* 3. Social Events Page */
     /* Google Calendar Section */
     #google-calendar {
@@ -643,11 +643,25 @@ footer {
         background-color: var(--additional-accent);
     }
 
-    /* 2. Class Times Page */
-    /* #classes-section {
-        width: 60%;
-        margin: 0 auto;
-    } */
+    /* 2. Classes Page */
+    .class-card {
+        width: 31%;
+       
+    }
+
+    .class-card:nth-child(3){
+        margin: 0;
+    } 
+
+    #signup-btn-div button:hover{
+        background-color: var(--secondary-color);
+        transition: .5s;
+    }
+
+    #signup-btn-div button:hover a{
+        color: white;
+        transition: .5s;
+    }
 
     /* 3. Social Events Page */
     /* Google Calendar Section */
