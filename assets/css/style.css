@@ -683,6 +683,24 @@ footer {
         height: 150px;
     }
 
+    /* 2. Classes Page */
+    #class-container{
+        gap: 10px;
+        margin:20px 0;
+    }
+
+    #class-container h2, p{
+        font-size: 20px;
+    }
+
+    .class-card {
+        width: 19%;    
+    }
+
+    .class-card table{
+        min-height: 360px;    
+    }
+    
     /* 3. Socials Page */
     /* Google Calendar Section */
     #google-calendar>iframe {
