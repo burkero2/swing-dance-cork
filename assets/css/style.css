@@ -309,54 +309,60 @@ footer {
 /* 2. Classes Page */
 #classes-section {
     padding: 20px 20px;
+    
 }
 
 #class-container {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    gap: 40px;
+    gap: 20px;
     justify-content: space-around;
     margin: 20px auto;
-
-
 }
 
 .class-card {
-    border-bottom: 1px solid lightgrey;
-    padding: 0px 0 30px;
+    padding: 20px 30px 30px;
     width: 100%;
+    background-color:var(--primary-color);
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.class-card:nth-child(2n){
+    background-color: lightgrey;
+    color:var(--text-base);
+
 }
 
 .class-card table th {
     font-size: 24px;
     padding: 0 0 5px;
-    text-align: right;
+    text-align: lcentereft;
+    text-decoration: underline;
 }
+
 
 #signup-btn-div {
     width: 150px;
-    margin: 20px 0;
+    margin: 20px auto 0;
 }
 
 #signup-btn-div button {
     border: 0;
     border-radius: 5px;
-    background-color: var(--primary-color);
+    background-color: white;
     padding: 10px;
-
+    width: 100%;
+    
 }
 
 #signup-btn-div button a {
-    text-decoration: none;
-    color: white;
     font-size: 18px;
     text-align: center;
-}
-
-#signup-btn-div button:hover {
-    background-color: var(--secondary-color);
-    transition: 1s;
+    color:var(--text-base);
+    text-decoration: none;
 }
 
 
