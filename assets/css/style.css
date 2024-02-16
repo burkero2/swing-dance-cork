@@ -87,7 +87,8 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid var(--text-base);
+    border-bottom: 1px solid var(--secondary-color);
+    color:var(--secondary-color);
 }
 
 /* Navbar Styles */
@@ -170,6 +171,7 @@ main {
     /* Padding top for 16:9 aspect ratio videos (56.25% of the width) */
     padding-top: 56.25%;
     background-color:#c73611;
+    border: 5px solid var(--primary-color);
 }
 
 .video-container iframe {
@@ -442,6 +444,7 @@ footer {
 #signup-form a{
     color: blue;
     text-align: center;
+    font-size: 18px;
 }
 
 
@@ -454,6 +457,7 @@ footer {
 #signup-form textarea{
     width: 100%;
     height: 100px;
+    padding: 10px;
 }
 
 #signup-form hr{
@@ -627,6 +631,11 @@ footer {
 
     #nav-toggle {
         display: none;
+    }
+
+    .active {
+        border-bottom: 1px solid var(--text-base);
+        color:var(--text-base);
     }
 
     /* Main Content */
@@ -812,4 +821,10 @@ footer {
         height: 600px;
     }
 
+    /* 4. Sign Up Page */
+    /* Sign up form */
+    #signup-form{
+        width: 70%;
+
+    }
 }
