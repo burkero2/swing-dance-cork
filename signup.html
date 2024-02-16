@@ -117,26 +117,42 @@
                 <input type="email" id="email" name="email" placeholder="Your Email" required/><br/>
               </td>
             </tr>
-        
+
+            <!-- Newsletter Choice Validation feedback -->
+            <tr>
+              <td colspan="2">
+                <div id="signup-personal-feedback" class="signup-feedback hide"></div>
+              </td>
+            </tr>
+            
             <!-- Swing Dance News -->
             <tr>
               <td colspan="2">
-                <p>Keep me up to date with swing dance news: <span class="subtext">*Newsletter sign up</span></p>
-                
+                <hr>
+                <p>Keep me up to date with swing dance news: <span class="subtext">* Newsletter sign up</span></p>
+              </td>
             </tr>
             <tr>
-              <td><input type="radio" id="yes" name="newsletter" value="yes" required/></td>
+              <td><input type="radio" id="yes" name="newsletter" value="yes"/></td>
               <td><label for="yes">Yes, please!</label></td>
             </tr>
             <tr>
-              <td><input type="radio" id="no" name="newsletter" value="no" required/></td>
+              <td><input type="radio" id="no" name="newsletter" value="no"/></td>
               <td><label for="no">No, thanks!</label></td>
             </tr>
             <tr>
-              <td><input type="radio" id="already" name="newsletter" value="already" required/></td>
+              <td><input type="radio" id="already" name="newsletter" value="already"/></td>
               <td><label for="already">I'm already on your mailing list!</label></td>
+              
             </tr>
 
+            <!-- Newsletter Choice Validation feedback -->
+            <tr>
+              <td colspan="2">
+                <div id="signup-newsletter-feedback" class="signup-feedback hide" ></div>
+              </td>
+            </tr>
+            
           </table>
           <hr />
 
@@ -162,6 +178,12 @@
 
           <h2>Any Questions:</h2>
           <textarea id="questions" name="questions" placeholder="Any questions or comments?"></textarea>
+          <!-- Form Validation feedback: Hidden until radio button option is chosen -->
+          <tr>
+            <td colspan="2">
+              <div id="signup-comments-feedback" class="signup-feedback hide">Here lies feedback!</div>
+            </td>
+          </tr>
            
           <input type="submit" value="Sign up now!">
       </form>

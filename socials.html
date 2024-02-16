@@ -1,253 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Swing Out Cork</title>
-    <!--Favicon-->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/favicon/favicon-16x16.png"
-    />
 
-    <!--Meta tags-->
-    <meta
-      name="description"
-      content="Swing Dance, Cork, Ireland, Classes for Beginners, Intermediate, and Advanced Dancers."
-    />
-    <meta
-      name="keywords"
-      content="Swing Dance, Cork, Ireland, Lindy Hop, Charelston, Classes, Beginners, Intermediate, Advanced, exercise, fun activities, social, dancing, dancers, dance."
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swing Out Cork</title>
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
 
-    <!--Link to CSS style sheet-->
-    <link rel="stylesheet" href="assets/css/style.css" />
+  <!--Meta tags-->
+  <meta name="description"
+    content="Swing Dance, Cork, Ireland, Classes for Beginners, Intermediate, and Advanced Dancers." />
+  <meta name="keywords"
+    content="Swing Dance, Cork, Ireland, Lindy Hop, Charelston, Classes, Beginners, Intermediate, Advanced, exercise, fun activities, social, dancing, dancers, dance." />
 
-    <!-- FontAwesome Link -->
-    <script
-      src="https://kit.fontawesome.com/2cbe6bf33e.js"
-      crossorigin="anonymous"
-    ></script>
+  <!--Link to CSS style sheet-->
+  <link rel="stylesheet" href="assets/css/style.css" />
 
-    <!-- JQuery CDN -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
-  </head>
-  <body>
-    <!-- Header -->
-    <header>
-      <div id="logo-div" class="logo-div-class">
-        <a href="index.html" alt="link to home page" id="logo-link">
-          <img
-            id="logo-img"
-            class="logo-img"
-            alt="Swing Out Cork logo image - 2 dancers dancing"
-            src="assets/images/SwingDanceCorkLogoSmall.png"
-          />
-          <h1 id="logo-title" class="hide">Swing Out Cork</h1>
-        </a>
-      </div>
-      <button id="nav-toggle"><i class="fa-solid fa-bars"></i></button>
-      <nav class="hide">
-        <ul id="menu">
-          <li>
-            <a href="index.html" alt="link to home page" id="logo-link">Home</a>
-          </li>
-          <li>
-            <a href="/classes.html" alt="link to classes page">Classes</a>
-          </li>
-          <li>
-            <a
-              href="/socials.html"
-              alt="link to social events page"
-              class="active"
-              >Socials</a
-            >
-          </li>
-          <li>
-            <a href="/signup.html" alt="link to sign up page">Sign Up!</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <!-- Main -->
-    <main>
-      <section id="hero">
-        <div id="hero-text">
-          <h3>Meet other <br />Swing Heads <br />Worldwide!</h3>
-        </div>
-      </section>
+  <!-- FontAwesome Link -->
+  <script src="https://kit.fontawesome.com/2cbe6bf33e.js" crossorigin="anonymous"></script>
 
-      <!-- The about Section -->
-      <section id="about">
-        <h2>Getting Social</h2>
+  <!-- JQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+</head>
 
-        <p>
-          Our vibrant social dance scene is the perfect place for beginners and
-          seasoned dancers alike to explore the magic of swing. Whether you're
-          looking to learn the lively Lindy Hop, the charming Charleston, or
-          simply sway with the rhythms of jazz, you'll find a welcoming
-          community eager to share the dance floor with you.
-        </p>
-
-        <!-- Code taken from https: //www.smashingmagazine.com/2014/02/making-embedded-content-work-in-responsive-design/ -->
-        <div class="video-container">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/rtE576QiAeI?si=u5oLXiFb5ixMnntQ"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <!-- End of copied code -->
-        <p>
-          No partner? No problem! Our social dances are a fantastic opportunity
-          to meet new people, learn together, and enjoy the spontaneity of
-          partner dancing.
-        </p>
-        <p>
-          So, slip on your dancing shoes, and let's swing into a world where the
-          music never ends, and the dance floor is always alive!
-        </p>
-      </section>
-
-      <section id="google-calendar">
-        <h2>Social Events Calendar</h2>
-        <p>
-          Keep an eye out for social events in your area! The best way to meet
-          new people and practice your swing is the socials, so come get dancing
-          with us!
-        </p>
-        <iframe
-          src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Europe%2FDublin&showTitle=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&showDate=0&src=ZWU3ODFhZTAzMmQ0ZTk0N2FmMjJiNzE5ZTlkNTQxYWFjOTNjYmU5NzYwM2NjMGQwMTljNDlkNGY5ODI1NWVlNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23A79B8E"
-          style="border-width: 0"
-          frameborder="0"
-          scrolling="no"
-        ></iframe>
-        <div>
-          <p>* Some events may include cover charge.</p>
-        </div>
-      </section>
-
-      <!-- Navigation Buttons -->
-      <section id="navigation-buttons-section">
-        <!-- Homepage page-->
-        <div class="home-nav nav-btns">
-          <a href="index.html">
-            <div class="navigation-icons-image-div">
-              <i class="fa-solid fa-house"></i>
-            </div>
-            <h3>Home</h3>
-          </a>
-          <p>
-            Welcome to our swing dance haven, your one-stop destination for all
-            things swing, from lively classes to vibrant social events, and
-            everything in between!
-          </p>
-        </div>
-        <!-- class page-->
-        <div class="class-nav nav-btns">
-          <a href="classes.html">
-            <div class="navigation-icons-image-div">
-              <i class="fa-solid fa-school"></i>
-            </div>
-            <h3>Classes</h3>
-          </a>
-          <p>
-            Step into the rhythm and join our swing dance classes, where fun,
-            fitness, and fantastic music come together to create an
-            unforgettable experience!
-          </p>
-        </div>
-        <!-- socials page-->
-        <div class="socials-nav nav-btns hide">
-          <a href="socials.html">
-            <div class="navigation-icons-image-div">
-              <i class="fa-solid fa-user-group"></i>
-            </div>
-            <h3>Socials</h3>
-          </a>
-          <p>
-            Discover the joy and excitement of our social swing dance events, a
-            perfect place to dance, meet new friends, and immerse yourself in
-            the vibrant swing community!
-          </p>
-        </div>
-
-        <!-- signup page -->
-        <div class="signup-nav nav-btns">
-          <a href="signup.html">
-            <div class="navigation-icons-image-div">
-              <i class="fa-solid fa-pen"></i>
-            </div>
-            <h3>Sign Up!</h3>
-          </a>
-          <p>
-            Ready to swing into action? Sign up now and be a part of our
-            energetic swing dance community - where every step is a new
-            adventure!
-          </p>
-        </div>
-      </section>
-    </main>
-    <!-- Footer -->
-    <footer>
-      <ul id="social-networks">
-        <!-- Cork Swing Dance Facebook Link -->
+<body>
+  <!-- Header -->
+  <header>
+    <div id="logo-div" class="logo-div-class">
+      <a href="index.html" alt="link to home page" id="logo-link">
+        <img id="logo-img" class="logo-img" alt="Swing Out Cork logo image - 2 dancers dancing"
+          src="assets/images/SwingDanceCorkLogoSmall.png" />
+        <h1 id="logo-title" class="hide">Swing Out Cork</h1>
+      </a>
+    </div>
+    <button id="nav-toggle"><i class="fa-solid fa-bars"></i></button>
+    <nav class="hide">
+      <ul id="menu">
         <li>
-          <a
-            href="https://www.facebook.com/groups/corkswingdc/"
-            aria-label="Visit our Facebook page for more details (opens in a new tab)"
-            rel="noopener"
-            target="_blank"
-          >
-            <i class="fa-brands fa-facebook"></i>
-          </a>
+          <a href="index.html" alt="link to home page" id="logo-link">Home</a>
         </li>
-
-        <!-- Swing Eire Instagram Link -->
         <li>
-          <a
-            href="https://www.instagram.com/swingeire/?hl=en"
-            aria-label="Check out our instagram page with photos of social dances (opens in a new tab)"
-            rel="noopener"
-            target="_blank"
-          >
-            <i class="fa-brands fa-square-instagram"></i>
-          </a>
+          <a href="/classes.html" alt="link to classes page">Classes</a>
         </li>
-
-        <!-- Spotify Playlist List -->
         <li>
-          <a
-            href="https://open.spotify.com/playlist/4IqkT7Dviavpz1mF6PKGnA"
-            aria-label="A fun spotify playlist to get that groove going (opens in a new tab)"
-            rel="noopener"
-            target="_blank"
-          >
-            <i class="fa-brands fa-spotify"></i>
-          </a>
+          <a href="/socials.html" alt="link to social events page" class="active">Socials</a>
+        </li>
+        <li>
+          <a href="/signup.html" alt="link to sign up page">Sign Up!</a>
         </li>
       </ul>
-    </footer>
+    </nav>
+  </header>
+  <!-- Main -->
+  <main>
+    <section id="hero">
+      <div id="hero-text">
+        <h3>Meet other <br />Swing Heads <br />Worldwide!</h3>
+      </div>
+    </section>
 
-    <script src="assets/js/script.js"></script>
-  </body>
+    <!-- The about Section -->
+    <section id="about">
+      <h2>Getting Social</h2>
+
+      <p>
+        No partner? No problem! Our social dances are a fantastic opportunity
+        to meet new people, learn together, and enjoy the spontaneity of
+        partner dancing.
+      </p>
+
+      <!-- Code taken from https: //www.smashingmagazine.com/2014/02/making-embedded-content-work-in-responsive-design/ -->
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rtE576QiAeI?si=u5oLXiFb5ixMnntQ"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+      <!-- End of copied code -->
+      
+      
+    </section>
+
+    <section id="google-calendar">
+      <h2>Social Events Calendar</h2>
+      <p>
+        Keep an eye out for social events in your area! The best way to meet
+        new people and practice your swing is the socials, so come get dancing
+        with us!
+      </p>
+      <iframe
+        src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Europe%2FDublin&showTitle=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&showDate=0&src=ZWU3ODFhZTAzMmQ0ZTk0N2FmMjJiNzE5ZTlkNTQxYWFjOTNjYmU5NzYwM2NjMGQwMTljNDlkNGY5ODI1NWVlNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23A79B8E"
+        style="border-width: 0" frameborder="0" scrolling="no"></iframe>
+      <div>
+        <p>* Some events may include cover charge.</p>
+      </div>
+    </section>
+
+    <!-- Navigation Buttons -->
+    <section id="navigation-buttons-section">
+      <!-- Homepage page-->
+      <div class="home-nav nav-btns">
+        <a href="index.html">
+          <div class="navigation-icons-image-div">
+            <i class="fa-solid fa-house"></i>
+          </div>
+          <h3>Home</h3>
+        </a>
+        <p>
+          Welcome to our swing dance haven, your one-stop destination for all
+          things swing, from lively classes to vibrant social events, and
+          everything in between!
+        </p>
+      </div>
+      <!-- class page-->
+      <div class="class-nav nav-btns">
+        <a href="classes.html">
+          <div class="navigation-icons-image-div">
+            <i class="fa-solid fa-school"></i>
+          </div>
+          <h3>Classes</h3>
+        </a>
+        <p>
+          Step into the rhythm and join our swing dance classes, where fun,
+          fitness, and fantastic music come together to create an
+          unforgettable experience!
+        </p>
+      </div>
+      <!-- socials page-->
+      <div class="socials-nav nav-btns hide">
+        <a href="socials.html">
+          <div class="navigation-icons-image-div">
+            <i class="fa-solid fa-user-group"></i>
+          </div>
+          <h3>Socials</h3>
+        </a>
+        <p>
+          Discover the joy and excitement of our social swing dance events, a
+          perfect place to dance, meet new friends, and immerse yourself in
+          the vibrant swing community!
+        </p>
+      </div>
+
+      <!-- signup page -->
+      <div class="signup-nav nav-btns">
+        <a href="signup.html">
+          <div class="navigation-icons-image-div">
+            <i class="fa-solid fa-pen"></i>
+          </div>
+          <h3>Sign Up!</h3>
+        </a>
+        <p>
+          Ready to swing into action? Sign up now and be a part of our
+          energetic swing dance community - where every step is a new
+          adventure!
+        </p>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <ul id="social-networks">
+      <!-- Cork Swing Dance Facebook Link -->
+      <li>
+        <a href="https://www.facebook.com/groups/corkswingdc/"
+          aria-label="Visit our Facebook page for more details (opens in a new tab)" rel="noopener" target="_blank">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </li>
+
+      <!-- Swing Eire Instagram Link -->
+      <li>
+        <a href="https://www.instagram.com/swingeire/?hl=en"
+          aria-label="Check out our instagram page with photos of social dances (opens in a new tab)" rel="noopener"
+          target="_blank">
+          <i class="fa-brands fa-square-instagram"></i>
+        </a>
+      </li>
+
+      <!-- Spotify Playlist List -->
+      <li>
+        <a href="https://open.spotify.com/playlist/4IqkT7Dviavpz1mF6PKGnA"
+          aria-label="A fun spotify playlist to get that groove going (opens in a new tab)" rel="noopener"
+          target="_blank">
+          <i class="fa-brands fa-spotify"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+
 </html>
