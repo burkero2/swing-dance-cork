@@ -164,13 +164,14 @@ main {
 
 }
 
-/* Code taken from https: //www.smashingmagazine.com/2014/02/making-embedded-content-work-in-responsive-design/ */
+/* Code taken and adapted from https: //www.smashingmagazine.com/2014/02/making-embedded-content-work-in-responsive-design/ */
 .video-container {
     position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 35px;
-    height: 0;
     overflow: hidden;
+    margin: 30px auto;
+    width: 100%;
+    height: 180px;
+    background-color:#c73611;
 }
 
 .video-container iframe {
@@ -178,7 +179,7 @@ main {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 180px;
 }
 
 /* End of copied code */
@@ -248,7 +249,7 @@ main {
     flex-direction: column;
     justify-content: space-around;
     gap: 20px;
-    margin: 0 20px;
+    margin: 0 20px 20px;
 }
 
 #navigation-buttons-section a {
@@ -366,6 +367,7 @@ footer {
 }
 
 
+
 /* 3. Socials Page */
 /* Google Calendar Section */
 #google-calendar {
@@ -449,7 +451,6 @@ footer {
     width: 100%;
     height: 100px;
 }
-
 /* Media queries: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -503,7 +504,7 @@ footer {
         flex-direction: row;
         justify-content: space-evenly;
         width: 79%;
-        margin: 0 auto;
+        margin: 30px auto;
     }
 
     /* 2. Classes Page */
@@ -636,7 +637,7 @@ footer {
     #navigation-buttons-section {
         width: 70%;
         margin-bottom: 35px;
-        margin-top: 45px;
+        margin-top: 0px;
     }
 
     .navigation-icons-image-div:hover {
@@ -682,7 +683,6 @@ footer {
     #testimonial-content hr {
         height: 150px;
     }
-
     /* 2. Classes Page */
     #class-container{
         gap: 10px;
@@ -700,7 +700,7 @@ footer {
     .class-card table{
         min-height: 360px;    
     }
-    
+
     /* 3. Socials Page */
     /* Google Calendar Section */
     #google-calendar>iframe {
