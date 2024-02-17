@@ -166,7 +166,6 @@ main {
     width: 100%;
     /* Padding top for 16:9 aspect ratio videos (56.25% of the width) */
     padding-top: 56.25%;
-    background-color:#c73611;
     border: 5px solid var(--primary-color);
 }
 
@@ -176,6 +175,7 @@ main {
     left: 0;
     width: 100%;
     height: 100%;
+    border: 1px solid var(--primary-color);
 }
 
 /* End of copied code */
