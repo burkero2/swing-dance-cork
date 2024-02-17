@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Swing Out Cork</title>
     <!--Favicon-->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
       href="assets/favicon/apple-touch-icon.png"
-    />
+    >
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="assets/favicon/favicon-32x32.png"
-    />
+    >
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
       href="assets/favicon/favicon-16x16.png"
-    />
+    >
 
     <!--Meta tags-->
     <meta
       name="description"
       content="Swing Dance, Cork, Ireland, Classes for Beginners, Intermediate, and Advanced Dancers."
-    />
+    >
     <meta
       name="keywords"
       content="Swing Dance, Cork, Ireland, Lindy Hop, Charelston, Classes, Beginners, Intermediate, Advanced, exercise, fun activities, social, dancing, dancers, dance."
-    />
+    >
 
     <!--Link to CSS style sheet-->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- FontAwesome Link -->
     <script
@@ -51,13 +51,12 @@
     <!-- Header -->
     <header>
       <div id="logo-div" class="logo-div-class">
-        <a href="index.html" alt="link to home page" id="logo-link">
+        <a href="index.html" id="logo-link">
           <img
             id="logo-img"
             class="logo-img"
             alt="Swing Out Cork logo image - 2 dancers dancing"
-            src="assets/images/SwingDanceCorkLogoSmall.png"
-          />
+            src="assets/images/SwingDanceCorkLogoSmall.png">
           <h1 id="logo-title" class="hide">Swing Out Cork</h1>
         </a>
       </div>
@@ -65,18 +64,18 @@
       <nav class="hide">
         <ul id="menu">
           <li>
-            <a href="index.html" alt="link to home page">Home</a>
+            <a href="index.html">Home</a>
           </li>
           <li>
-            <a href="classes.html" alt="link to classes page"
+            <a href="classes.html"
               >Classes</a
             >
           </li>
           <li>
-            <a href="socials.html" alt="link to social events page">Socials</a>
+            <a href="socials.html">Socials</a>
           </li>
           <li>
-            <a href="signup.html" alt="link to sign up page" class="active">Sign Up!</a>
+            <a href="signup.html" class="active">Sign Up!</a>
           </li>
         </ul>
       </nav>
@@ -86,14 +85,14 @@
       <!-- Hero Image Section -->
       <section id="hero">
         <div id="hero-text">
-          <h3>Sign up<br /> for classes <br/>now!</h3>
+          <h3>Sign up<br> for classes<br>now!</h3>
         </div>
       </section>
 
       <!-- Sign up Form -->
       <section id="signup-form-section">        
         <form id="signup-form" action="https://formdump.codeinstitute.net" method="POST">
-          <h1>Sign Up!</h1>
+          <h2>Sign Up!</h2>
           <p>
             Ready to swing into action? Sign up now and be a part of our fun swing dance community - where every step is a new adventure!
           </p>
@@ -106,7 +105,7 @@
                 <label for="name"> Full Name:</label>
               </td>
               <td>
-                <input type="text" id="name" name="name" placeholder="Your Name" width="20px" required/>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
               </td>
             </tr>
             <tr>
@@ -114,7 +113,7 @@
                 <label for="email"> Email:</label>
               </td>
               <td>
-                <input type="email" id="email" name="email" placeholder="Your Email" required/><br/>
+                <input type="email" id="email" name="email" placeholder="Your Email" required><br>
               </td>
             </tr>
 
@@ -133,15 +132,15 @@
               </td>
             </tr>
             <tr>
-              <td><input type="radio" id="yes" name="newsletter" value="yes"/></td>
+              <td><input type="radio" id="yes" name="newsletter" value="yes"></td>
               <td><label for="yes">Yes, please!</label></td>
             </tr>
             <tr>
-              <td><input type="radio" id="no" name="newsletter" value="no"/></td>
+              <td><input type="radio" id="no" name="newsletter" value="no"></td>
               <td><label for="no">No, thanks!</label></td>
             </tr>
             <tr>
-              <td><input type="radio" id="already" name="newsletter" value="already"/></td>
+              <td><input type="radio" id="already" name="newsletter" value="already"></td>
               <td><label for="already">I'm already on your mailing list!</label></td>
               
             </tr>
@@ -149,19 +148,19 @@
             <!-- Newsletter Choice Validation feedback -->
             <tr>
               <td colspan="2">
-                <div id="signup-newsletter-feedback" class="signup-feedback hide" ></div>
+                <div id="signup-newsletter-feedback" class="signup-feedback hide"></div>
               </td>
             </tr>
             
           </table>
-          <hr />
+          <hr>
 
           <!-- Terms & Conditions: -->
-          <h2>Terms & Conditions:</h2>
+          <h3>Terms & Conditions:</h3>
           <table>
             <tr>
               <td>
-                <input type="checkbox" id="terms" name="terms" required/>
+                <input type="checkbox" id="terms" name="terms" required>
               </td>
               <td>
                 <label for="terms">I agree to the terms and conditions</label>
@@ -169,21 +168,23 @@
             </tr>
             <tr>
               <td colspan="2">
-                <p><a href="terms.html" alt="Link to Website Terms and Conditions" target="_blank">View Terms and Conditions</a></p>
+                <p><a href="terms.html" target="_blank">View Terms and Conditions</a></p>
               </td>
             </tr>
           </table>
           
           <!-- Any Questions: -->
-
-          <h2>Any Questions:</h2>
+          
+          <h3>Any Questions:</h3>
           <textarea id="questions" name="questions" placeholder="Any questions or comments?"></textarea>
           <!-- Form Validation feedback: Hidden until radio button option is chosen -->
-          <tr>
-            <td colspan="2">
-              <div id="signup-comments-feedback" class="signup-feedback hide">Here lies feedback!</div>
-            </td>
-          </tr>
+          <table>
+            <tr>
+              <td>
+                <div id="signup-comments-feedback" class="signup-feedback hide">Here lies feedback!</div>
+              </td>
+            </tr>
+          </table>
            
           <input type="submit" value="Sign up now!">
         </form>
