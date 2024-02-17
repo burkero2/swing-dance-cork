@@ -82,10 +82,6 @@ header a {
 
 }
 
-#menu>li {
-    margin-bottom: 1em;
-}
-
 .active {
     border-bottom: 1px solid var(--secondary-color);
     color:var(--secondary-color);
@@ -117,7 +113,7 @@ main {
 
     /* Make main content full height of screen */
     flex: 1 0 auto;
-    margin-top: 73.8px;
+    margin-top: 95.4px;
 }
 
 /* Hero Section */
@@ -350,7 +346,7 @@ footer {
     margin: 20px auto 0;
 }
 
-#signup-btn-div button, #signup-form-section input[type="submit"]{
+#signup-btn-div button{
     border: 0;
     border-radius: 5px;
     background-color: white;
@@ -359,7 +355,7 @@ footer {
     
 }
 
-#signup-btn-div button a, #signup-form-section input[type="submit"] {
+#signup-btn-div button a {
     font-size: 18px;
     text-align: center;
     color:var(--text-base);
@@ -397,26 +393,21 @@ footer {
     margin: 0 auto;
 }
 
-#signup-form-section>p{
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-#signup-form-section h1{
-    background-color: #afd2d4;
-    color:white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    font-size:24px;
-}
-
 #signup-form{
     background-color: var(--primary-color);
     padding:20px;
     color: white;
     border-radius: 5px;
     margin: 20px 0 30px;
+}
+
+#signup-form h1{
+    background-color: white;
+    color: var(--primary-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size:24px;
 }
 
 #signup-form tr{
@@ -440,13 +431,6 @@ footer {
     font-size: 12px;
     
 }
-
-#signup-form a{
-    color: blue;
-    text-align: center;
-    font-size: 18px;
-}
-
 
 #signup-form input{
     width: 100%;
@@ -477,8 +461,20 @@ footer {
 }
 
 #signup-form input[type="submit"]{
-    font-size:18px;
+    font-size:20px;
     margin: 10px 0;
+    background-color:var(--secondary-color);
+    color:white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#signup-form input[type="submit"]:hover{
+    color:var(--secondary-color);
+    background-color:white;
+    border: 2px solid var(--secondary-color);
+    transition: .5s;
 }
 
 
@@ -490,6 +486,16 @@ footer {
 #terms-container>div{
     text-align:center;
     margin-top:20px;
+    
+}
+
+#checkbox-div{
+    color:red;
+    text-align:right;
+    background-color:lightgrey;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 10px 5px;
 }
 
 /* Media queries: tablets and larger (768px and up) */
@@ -628,7 +634,7 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid var(--secondary-color);
     }
-
+    
     #nav-toggle {
         display: none;
     }
@@ -641,7 +647,7 @@ footer {
     /* Main Content */
     /* Push main content down to accomodate larger header size */
     main {
-        margin-top: 150.4px;
+        margin-top: 136.4px;
     }
 
     /* Hero Image */
@@ -716,7 +722,7 @@ footer {
         margin: 0;
     } 
 
-    #signup-btn-div button:hover, #signup-form input[type="submit"]:hover{
+    #signup-btn-div button:hover{
         background-color: var(--secondary-color);
         transition: .5s;
         color:white;
