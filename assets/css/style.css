@@ -341,23 +341,24 @@ footer {
 }
 
 
-#signup-btn-div {
+.signup-btn-div {
     width: 150px;
     margin: 20px auto 0;
 }
 
-#signup-btn-div button{
+.signup-btn-div div{
     border: 0;
     border-radius: 5px;
     background-color: white;
     padding: 10px;
     width: 100%;
+    text-align: center;
     
 }
 
-#signup-btn-div button a {
+.signup-btn-div div a {
     font-size: 18px;
-    text-align: center;
+    
     color:var(--text-base);
     text-decoration: none;
 }
@@ -722,13 +723,13 @@ footer {
         margin: 0;
     } 
 
-    #signup-btn-div button:hover{
+    .signup-btn-div div:hover{
         background-color: var(--secondary-color);
         transition: .5s;
         color:white;
     }
 
-    #signup-btn-div button:hover a{
+    .signup-btn-div div:hover a{
         color: white;
         transition: .5s;
     }
