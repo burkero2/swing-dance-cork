@@ -376,6 +376,7 @@ footer {
     width: 100%;
     min-height: 400px;
     margin: 20px 0 0;
+    border: 5px solid var(--primary-color);
 }
 
 #google-calendar>div {
