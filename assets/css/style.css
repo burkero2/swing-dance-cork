@@ -54,7 +54,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-
 }
 
 #logo-img {
@@ -75,17 +74,7 @@ header a {
     margin-left: 5px;
 }
 
-#menu {
-    list-style-type: none;
-    letter-spacing: 2px;
-    font-size: 110%;
 
-}
-
-.active {
-    border-bottom: 1px solid var(--secondary-color);
-    color:var(--secondary-color);
-}
 
 /* Navbar Styles */
 nav {
@@ -98,6 +87,22 @@ nav {
     left: 0;
     top: 100%;
     text-align: right;
+}
+
+#menu {
+    list-style-type: none;
+    letter-spacing: 2px;
+    font-size: 110%;
+    margin-bottom: 10px;
+}
+
+#menu li{
+    margin-top: 10px;
+}
+
+.active {
+    border-bottom: 1px solid var(--secondary-color);
+    color:var(--secondary-color);
 }
 
 header>button {
@@ -113,7 +118,7 @@ main {
 
     /* Make main content full height of screen */
     flex: 1 0 auto;
-    margin-top: 95.4px;
+    margin-top: 80.4px;
 }
 
 /* Hero Section */
@@ -150,7 +155,8 @@ main {
 /* About Section */
 
 #about {
-    padding: 20px 20px;
+    padding: 30px 20px 20px;
+    
 }
 
 #about p {
@@ -580,8 +586,12 @@ footer {
     }
 
     #teachers-div{
-        width:75%;
-        margin: 10px auto 0;
+        width:80%;
+        margin: 30px auto 0;
+    }
+
+    #teachers-div h2{
+        font-size: 1.7em;
     }
 
     /* 3. Social Events Page */
@@ -627,11 +637,17 @@ footer {
 
     #menu>li {
         padding-left: 1.5rem;
+        margin-top:20px;
     }
-
+    
     #menu>li:hover {
         color: var(--secondary-color);
     }
+
+    #menu a {
+        margin-top:20px;
+    }
+
 
     #menu a:hover {
         border-bottom: 1px solid var(--secondary-color);
@@ -756,6 +772,15 @@ footer {
 
 /* Media queries: Medium Screen sizes (1440px and up) */
 @media screen and (min-width: 1440px) {
+    /* About Section */
+    #about{
+        margin: 30px auto;
+    }
+
+    #about h2{
+        font-size: 34px;
+    }
+
     #testimonial-content hr {
         height: 150px;
     }
@@ -809,7 +834,6 @@ footer {
 
 /* Media queries: Large Screen sizes (1625px and up) */
 @media screen and (min-width: 1625px) {
-
     /* Testimonials */
     .testimonial-image {
         width: 175px;
