@@ -887,3 +887,13 @@ footer {
 
     }
 }
+
+
+/* Media queries: Largest Screen sizes (2560px and up) */
+@media screen and (min-width: 2560px) {
+    /* 3. Socials Page */
+    /* Google Calendar Section */
+    #google-calendar>iframe {
+        height: 800px;
+    }
+}
