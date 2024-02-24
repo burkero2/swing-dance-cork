@@ -733,14 +733,18 @@ footer {
     }
 
     /* 2. Classes Page */
+
     .class-card {
-        width: 31%;
-       
+        width: 40%;
     }
 
     .class-card:nth-child(3){
         margin: 0;
     } 
+
+    .class-card, .signup-btn-div a{
+        font-size:22px;
+    }
 
     .signup-btn-div div:hover{
         background-color: var(--secondary-color);
@@ -803,7 +807,7 @@ footer {
 
     .class-card table{
         min-height: 360px;    
-        font-size: 24px;
+        font-size: 22px;
     }
 
     /* 3. Socials Page */
@@ -850,25 +854,17 @@ footer {
 
     /* 2. Classes Page */
     #classes-section{
-        width: 70%;
+        width: 80%;
         margin:20px auto;
     }
 
-    #classes-section h2{
-        font-size: 28px;        
-    }
-
-    #classes-section p{
-        font-size: 24px;     
-    }
-
     #class-container{
-        /* gap: 10px;     */
+        gap: 10px;    
     }
 
 
     .class-card {
-        width: 18%;   
+        width: 30%;   
     }
 
     .class-card table{
@@ -893,6 +889,16 @@ footer {
 
 /* Media queries: Largest Screen sizes (2560px and up) */
 @media screen and (min-width: 2560px) {
+    /* 2. Classes Page */
+    #classes-section{
+        width: 70%;
+    }
+
+    .class-card {
+        width: 18%;   
+    }
+
+
     /* 3. Socials Page */
     /* Google Calendar Section */
     #google-calendar>iframe {
