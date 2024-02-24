@@ -314,7 +314,7 @@ footer {
     transition: .5s;
 }
 
-/* 2. Classes Page */
+/* 2. Classes Page mobile*/
 #classes-section {
     padding: 20px 20px;
     
@@ -356,6 +356,9 @@ footer {
    
 }
 
+.class-card table td{
+    padding-top:10px;
+}
 
 .signup-btn-div {
     width: 150px;
@@ -840,6 +843,10 @@ footer {
     .class-card table{
         min-height: 360px;    
         font-size: 18px;
+    }
+
+    .class-card table td{
+        padding-top:0;
     }
 
     /* 3. Socials Page */
