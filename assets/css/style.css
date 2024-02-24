@@ -382,7 +382,7 @@ footer {
 
 #google-calendar>iframe {
     width: 100%;
-    min-height: 400px;
+    min-height: 350px;
     margin: 20px 0 0;
     border: 5px solid var(--primary-color);
 }
@@ -602,6 +602,11 @@ footer {
         width: 70%;
     }
 
+    #google-calendar iframe{
+        height: 450px;
+    }
+
+
     /* 4. Sign Up Page */
     /* Sign up form */
     #signup-form-section{
@@ -813,7 +818,7 @@ footer {
     /* 3. Socials Page */
     /* Google Calendar Section */
     #google-calendar>iframe {
-        height: 550px;
+        height: 600px;
     }
 
     /* 4. Sign up Page */
@@ -875,7 +880,7 @@ footer {
     /* 3. Socials Page */
     /* Google Calendar Section */
     #google-calendar>iframe {
-        height: 600px;
+        height: 700px;
     }
 
     /* 4. Sign Up Page */
@@ -902,6 +907,6 @@ footer {
     /* 3. Socials Page */
     /* Google Calendar Section */
     #google-calendar>iframe {
-        height: 800px;
+        height: 900px;
     }
 }
