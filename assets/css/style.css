@@ -36,6 +36,7 @@ body {
     color: var(--text-base);
     /* Body font-family */
     font-family: 'Roboto', sans-serif;
+    background-color:white;
 }
 
 /* Header */
