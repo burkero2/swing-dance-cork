@@ -3,22 +3,21 @@
 2. Dall.e for graphics generation
 3. Figma - wireframing
 4. Coolors.co - Color scheme
-5.
+5. www.swingdancecork.ie
 
 
+Tutorials: 
+1. Understanding more about Lighthouse scoring: LCP scoring: https://web.dev/articles/optimize-lcp
+2. Loading youtube clips more quickly: https://www.google.com/search?q=is+a+youtube+iframe+embed+slow%3F&rlz=1C1CHBF_en-GBIE1072IE1072&oq=is+a+youtube+iframe+embed+slow%3F&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigATIHCAUQIRigATIHCAYQIRifBdIBCTExODgyajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:e326015d,vid:PR0IoTChhT8,st:0
 
-Color Scheme: 
---primary-color: maroon;
---secondary-color: #F5F5DC;
---accent-color: #000080;
+/* Color Scheme Variables */
+--primary-color: #6eb2b7;
+--secondary-color: #c73611;
+--accent-color: #e2e2e2;
 --additional-accent: #B5A642;
---neutral-base: #D3D3D3;
+--text-base: #3a3a3a;
 
 Font-Family:
-Header Text:
-font-family: 'Bebas Neue', sans-serif;
-font-family: 'Playfair Display', serif;
-
 Body:
 font-family: 'Roboto', sans-serif; 
 

@@ -1,30 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:wght@400;600&family=Roboto:wght@300;400;700&display=swap');
 
-/* Font Choices */
-/* Header Text: 
-font-family: 'Bebas Neue', sans-serif;
+:root {
+/* Color Scheme Variables */
+--primary-color: #6EB2B7;
+/* primary color */
+--secondary-color: #c73611;
+/*secondary color */
+--accent-color: #e2e2e2;
+/* accent color */
+--additional-accent: #B5A642;
+--text-base: #3a3a3a;
+/*Text */
+/* Main headings Font */
+--heading-font: 'Bebas Neue', sans-serif;
+/* Body text font */
+--body-font:'Roboto', sans-serif;
+}
 
-
-Body: 
-font-family: 'Roboto', sans-serif; */
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
-    /* Color Scheme Variables */
-    --primary-color: #6eb2b7;
-    /* primary color */
-    --secondary-color: #c73611;
-    /*secondary color */
-    --accent-color: #e2e2e2;
-    /* accent color */
-    --additional-accent: #B5A642;
-    --text-base: #3a3a3a;
-    /*Text */
-
 }
 
 /* General styles */
@@ -35,7 +33,7 @@ body {
     /* Generic project styles */
     color: var(--text-base);
     /* Body font-family */
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--body-font);
     background-color:white;
 }
 
@@ -69,7 +67,7 @@ header a {
 }
 
 #logo-title {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: var(--heading-font);
     color: black;
     letter-spacing: 2px;
     margin-left: 5px;
@@ -150,7 +148,7 @@ main {
     color: #FFFFFF;
     font-size: 30px;
     text-align: right;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: var(--heading-font);
     letter-spacing: 3px;
     font-weight: normal;
     height:100%;

@@ -38,12 +38,19 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Lite Youtube Embed Code: Source: https://github.com/paulirish/lite-youtube-embed/blob/master/src/lite-yt-embed.js -->
+    <link rel="stylesheet" href="/assets/css/lite-yt-embed.css">
+    <script src="/assets/js/lite-yt-embed.js"></script>
+
+
     <!-- JQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
   </head>
   <body>
+     
     <!-- Header -->
+    <!-- The Navbar was based upon the love running project navbar, however, it is been adapted, and makes use of JavaScript as the eventlistener instead.  -->
     <header>
       <div id="logo-div" class="logo-div-class">
         <a href="index.html" id="logo-link">
@@ -92,8 +99,10 @@
           steps; it's a celebration of rhythm, culture, and joyful expression.
         </p>
 
-        <!-- Code taken from https: //www.smashingmagazine.com/2014/02/making-embedded-content-work-in-responsive-design/ -->
+        <!-- Lite Youtube Embed Code: Source: https://github.com/paulirish/lite-youtube-embed/blob/master/src/lite-yt-embed.js -->
         <div class="video-container">
+          <!-- <lite-youtube videoid="26-1t15R_MU?si=3dwxcs-AuEzfMPuK&start=11" params="controls=1"></lite-youtube> -->
+          
           <iframe
             src="https://www.youtube.com/embed/26-1t15R_MU?si=3dwxcs-AuEzfMPuK&amp;start=11"
             title="YouTube video player"
