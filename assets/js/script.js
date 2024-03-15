@@ -14,39 +14,41 @@ $(document).on("click", function (e) {
 
 // Sign Up Form Event Handling and form validation
 // Event Handling for the form submission including input validation and feedback
-let signupForm = document.getElementById("signup-form");
-signupForm.addEventListener("change", function (e) {
-    let formData = e.target;
-    let personalInfoMessage = document.getElementById("signup-personal-feedback")
-    let newsletterMessage = document.getElementById("signup-newsletter-feedback")
+document.addEventListener('DOMContentLoaded', function() {
+    let signupForm = document.getElementById("signup-form");
+    signupForm.addEventListener("change", function (e) {
+        let formData = e.target;
+        let personalInfoMessage = document.getElementById("signup-personal-feedback")
+        let newsletterMessage = document.getElementById("signup-newsletter-feedback")
 
 
-    // Feedback for the Personal Information Section
-    if (formData.name === "name") {
-        if (!formData.value.trim().includes(" ")) {
-            personalInfoMessage.classList.remove("hide");
-            personalInfoMessage.style.color = "red";
-            personalInfoMessage.innerText = "* Please leave your full name!"
-        } else {
-            personalInfoMessage.classList.add("hide");
-            personalInfoMessage.innerText = "";
+        // Feedback for the Personal Information Section
+        if (formData.name === "name") {
+            if (!formData.value.trim().includes(" ")) {
+                personalInfoMessage.classList.remove("hide");
+                personalInfoMessage.style.color = "red";
+                personalInfoMessage.innerText = "* Please leave your full name!"
+            } else {
+                personalInfoMessage.classList.add("hide");
+                personalInfoMessage.innerText = "";
+            }
+
         }
-
-    }
-    // Feedback for the newsletter section of the form
-    if (formData.name === "newsletter") {
-        if (formData.value === "yes") {
-            newsletterMessage.classList.remove("hide");
-            newsletterMessage.innerText = "Thanks! You have signed up to our newsletter!"
-        } else if (formData.value === "already") {
-            newsletterMessage.classList.remove("hide");
-            newsletterMessage.innerText = "Great to hear! We'll be in touch!"
-        } else {
-            newsletterMessage.classList.add("hide");
-            newsletterMessage.innerText = "";
+        // Feedback for the newsletter section of the form
+        if (formData.name === "newsletter") {
+            if (formData.value === "yes") {
+                newsletterMessage.classList.remove("hide");
+                newsletterMessage.innerText = "Thanks! You have signed up to our newsletter!"
+            } else if (formData.value === "already") {
+                newsletterMessage.classList.remove("hide");
+                newsletterMessage.innerText = "Great to hear! We'll be in touch!"
+            } else {
+                newsletterMessage.classList.add("hide");
+                newsletterMessage.innerText = "";
+            }
         }
-    }
-})
+    });
+});
 
 
 // Event Listener to show message that we'll be in touch if the user leaves a question.
