@@ -124,7 +124,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: var(--primary-color) url("../images/hero-image.png") no-repeat center center/cover;
+    background: var(--primary-color) url("../images/hero-image-cropped-760-optim.png") no-repeat center center/cover;
     background-size: auto;
     position: relative;
 }
@@ -522,7 +522,7 @@ footer {
 
 /* Media queries: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
+    
     /* Header */
     #logo-img {
         width: 100px;
@@ -539,10 +539,10 @@ footer {
         display: inline;
     }
 
-    /* Hero-image */
     /* Hero Section */
-    #hero {
-        background: var(--primary-color) url("../images/hero-image.png") no-repeat center center/cover;
+    /* Header image resizing for different screensizes */
+    #hero{
+        background: var(--primary-color) url("../images/hero-image-cropped-1440-optim.png") no-repeat center center/cover;
     }
 
 
@@ -551,6 +551,11 @@ footer {
         padding-left: 40px;
     }
 
+    /* Push main content down to accomodate larger header size */
+    main {
+        margin-top: 136.4px;
+    }
+    
     /* About Section */
     #about {
         margin: 0 auto;
@@ -698,11 +703,6 @@ footer {
     }
 
     /* Main Content */
-    /* Push main content down to accomodate larger header size */
-    main {
-        margin-top: 136.4px;
-    }
-
     /* Hero Image */
     #hero-text {
         width: 32%;
@@ -807,6 +807,12 @@ footer {
 
 /* Media queries: Medium Screen sizes (1440px and up) */
 @media screen and (min-width: 1440px) {
+    /* Header image resizing for different screensizes */
+    #hero{
+        background: var(--primary-color) url("../images/hero-image-cropped-wide-optim.png") no-repeat center center;
+
+    }
+
     /* About Section */
     #about{
         margin: 30px auto;
