@@ -124,8 +124,8 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: var(--primary-color) url("../images/hero-image-cropped-760-optim.png") no-repeat center center/cover;
-    background-size: auto;
+    background: var(--primary-color) url("../images/hero-image-cropped-500.png") no-repeat center center/cover;
+    /* background-size: auto; */
     position: relative;
 }
 
@@ -542,7 +542,7 @@ footer {
     /* Hero Section */
     /* Header image resizing for different screensizes */
     #hero{
-        background: var(--primary-color) url("../images/hero-image-cropped-1440-optim.png") no-repeat center center/cover;
+        background: var(--primary-color) url("../images/hero-image-cropped-760.png") no-repeat center center/cover;
     }
 
 
@@ -555,7 +555,7 @@ footer {
     main {
         margin-top: 136.4px;
     }
-    
+
     /* About Section */
     #about {
         margin: 0 auto;
@@ -592,11 +592,6 @@ footer {
         width: 85%;
         
     }
-
-/* .class-card:nth-child(2n){
-    background-color:var(--text-base) ;
-    color:white;
-} */
 
     .class-card {
         width: 45%;
@@ -703,6 +698,12 @@ footer {
     }
 
     /* Main Content */
+    /* Hero Section */
+    /* Header image resizing for different screensizes */
+    #hero{
+        background: var(--primary-color) url("../images/hero-image-cropped-1024.png") no-repeat center center/cover;
+    }
+
     /* Hero Image */
     #hero-text {
         width: 32%;
@@ -809,7 +810,7 @@ footer {
 @media screen and (min-width: 1440px) {
     /* Header image resizing for different screensizes */
     #hero{
-        background: var(--primary-color) url("../images/hero-image-cropped-wide-optim.png") no-repeat center center;
+        background: var(--primary-color) url("../images/hero-image-cropped-1440.png") no-repeat center center;
 
     }
 
@@ -890,6 +891,12 @@ footer {
 
 /* Media queries: Large Screen sizes (1625px and up) */
 @media screen and (min-width: 1625px) {
+    /* Header image resizing for different screensizes */
+    #hero{
+        background: var(--primary-color) url("../images/hero-image-cropped-wide.png") no-repeat center center;
+
+    }
+
     /* Testimonials */
     .testimonial-image {
         width: 175px;
